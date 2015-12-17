@@ -18,3 +18,4 @@ rankall <- function(outcome, num = "best") {
                 hospital[i] <- rankhospital(state[i], outcome, num)
         }
         data.frame(hospital, state)
+}
